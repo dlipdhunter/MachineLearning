@@ -1,4 +1,4 @@
-#Genetic Algorithm#
+#Genetic Algorithm
 
 A genetic algorithm performs the following steps to achieve the result through N number of evolutions.
 
