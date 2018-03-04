@@ -1,4 +1,4 @@
-#Genetic Algorithm
+# Genetic Algorithm
 
 A genetic algorithm performs the following steps to achieve the result through N number of evolutions.
 
@@ -16,6 +16,7 @@ Create a new empty population and fill it by executing the following steps:
 2. Crossover -- create a "child" object by mating these two parents.
 3. Mutation -- mutate the child's DNA based on a given probability. This value plays a big role in efficiency of the algorithm. When mutation value is 100%, it produces the effect of complete randomness and could cause the algorithm less efficient. Having mutation value 0% could cause the algorithm not to evolve and making it worse to get the result. So the more minimal the variation/ mutation value the better the chances of getting the result.
 4. Add the child object to the new population.
+5. Replace the old population with the new population.
 
-Replace the old population with the new population
+Do steps 2 and 3 until a termination condition is met or result is found.
 
